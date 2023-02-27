@@ -3,7 +3,7 @@ EEE3088F project files for Group 3
 
 ## Team Members
 1. Micheal Awe (Microcontroller interfacing + Coding)
-2. Adrian McIntosh (Sensor Module)
+2. Adrian Mc Intosh (Sensor Module)
 3. Simon Carthew (Power Module)
 
 ## Project Description
