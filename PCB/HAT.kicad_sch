@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 40f36b19-a08c-43e7-88a6-ec8387939712)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 40.64 30.48) (size 72.39 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 13666b47-888a-4bed-b522-fee751a1c440)
+    (property "Sheetname" "Power Module" (at 40.64 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power_Module.kicad_sch" (at 40.64 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 156.21 31.75) (size 76.2 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2460aa4e-e7b3-4d03-ad75-cceb37813eec)
+    (property "Sheetname" "Sensor Module" (at 156.21 31.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Sensor_Module.kicad_sch" (at 156.21 69.1646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
