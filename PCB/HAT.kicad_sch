@@ -42,6 +42,23 @@
     )
   )
 
+  (sheet (at 40.64 83.82) (size 73.66 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b7b8be48-5f2b-4c33-af80-a02a3053dc62)
+    (property "Sheetname" "Microcontroller Interfacing Module" (at 40.64 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "microcontroller_interfacing.kicad_sch" (at 40.64 125.0446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712" (page "4"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
