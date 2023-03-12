@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Sensor Module")
+    (date "2023-03-12")
+    (company "University of Cape Town")
+    (comment 1 "Author: Simon Carthew")
+    (comment 2 "v0.0")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x01_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
@@ -485,7 +493,6 @@
       )
     )
   )
-
 
   (junction (at 162.56 62.23) (diameter 0) (color 0 0 0 0)
     (uuid 0c978a42-87f1-42d3-9496-72287fd5efcb)
