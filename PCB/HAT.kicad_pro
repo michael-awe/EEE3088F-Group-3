@@ -334,6 +334,10 @@
     [
       "2460aa4e-e7b3-4d03-ad75-cceb37813eec",
       "Sensor Module"
+    ],
+    [
+      "b7b1774d-5583-4628-a0c2-f9ec68f1422c",
+      "MicroController_Interfacing"
     ]
   ],
   "text_variables": {}
