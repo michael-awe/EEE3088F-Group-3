@@ -1177,6 +1177,43 @@
         )
       )
     )
+    (symbol "Connector_Generic:Conn_01x01" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x01" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x01_1_1"
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 1.27) (end 1.27 -1.27)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1561,7 +1598,7 @@
   (junction (at 193.04 92.71) (diameter 0) (color 0 0 0 0)
     (uuid 0e784ca9-6751-4596-8e3a-27364ee1c9a5)
   )
-  (junction (at 250.19 130.81) (diameter 0) (color 0 0 0 0)
+  (junction (at 257.81 129.54) (diameter 0) (color 0 0 0 0)
     (uuid 3081e24b-3565-4b9f-af7b-999351c5a4e0)
   )
   (junction (at 129.54 95.25) (diameter 0) (color 0 0 0 0)
@@ -1576,7 +1613,7 @@
   (junction (at 27.94 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 8ce24bb1-e73a-4ef2-b2ff-626417c9769c)
   )
-  (junction (at 209.55 130.81) (diameter 0) (color 0 0 0 0)
+  (junction (at 220.98 129.54) (diameter 0) (color 0 0 0 0)
     (uuid 9eb701e6-0f24-4a4c-8359-d609e31278fa)
   )
   (junction (at 191.77 54.61) (diameter 0) (color 0 0 0 0)
@@ -1588,10 +1625,10 @@
   (junction (at 27.94 45.72) (diameter 0) (color 0 0 0 0)
     (uuid c05910c5-6ed9-4491-a603-e58855d9e4f6)
   )
-  (junction (at 209.55 138.43) (diameter 0) (color 0 0 0 0)
+  (junction (at 220.98 137.16) (diameter 0) (color 0 0 0 0)
     (uuid c6f28020-c8e8-493a-a074-714f7a4fe338)
   )
-  (junction (at 250.19 138.43) (diameter 0) (color 0 0 0 0)
+  (junction (at 257.81 137.16) (diameter 0) (color 0 0 0 0)
     (uuid dc4b10d2-be18-40bf-b9e1-820a08da7cdc)
   )
 
@@ -1639,7 +1676,7 @@
     (stroke (width 0) (type default))
     (uuid 0f872eac-e1cb-4e97-8d78-2970a5f92f3f)
   )
-  (wire (pts (xy 250.19 138.43) (xy 256.54 138.43))
+  (wire (pts (xy 257.81 137.16) (xy 264.16 137.16))
     (stroke (width 0) (type default))
     (uuid 131a7ed9-ba3b-4864-90c6-5bdffc7ab739)
   )
@@ -1687,7 +1724,7 @@
     (stroke (width 0) (type default))
     (uuid 2b260b4e-f95c-4494-8458-8aa175d2698a)
   )
-  (wire (pts (xy 209.55 128.27) (xy 209.55 130.81))
+  (wire (pts (xy 220.98 127) (xy 220.98 129.54))
     (stroke (width 0) (type default))
     (uuid 2b7d9964-032c-468a-9ee2-4b2d41233e2b)
   )
@@ -1727,7 +1764,7 @@
     (stroke (width 0) (type default))
     (uuid 4354d6ad-4cc6-4c16-930e-09f2f1340e05)
   )
-  (wire (pts (xy 250.19 138.43) (xy 250.19 139.7))
+  (wire (pts (xy 257.81 137.16) (xy 257.81 138.43))
     (stroke (width 0) (type default))
     (uuid 43e33be6-282e-4c73-bfbf-67ab9c00edfb)
   )
@@ -1787,7 +1824,7 @@
     (stroke (width 0) (type default))
     (uuid 55a893f9-df40-4641-98a4-c6b9985607f8)
   )
-  (wire (pts (xy 209.55 130.81) (xy 222.25 130.81))
+  (wire (pts (xy 220.98 129.54) (xy 233.68 129.54))
     (stroke (width 0) (type default))
     (uuid 575802ed-2e9e-4edb-bfbb-969f1a76789f)
   )
@@ -1839,7 +1876,7 @@
     (stroke (width 0) (type default))
     (uuid 71f2d2f0-77c1-4d15-8ccc-ce0e0fef538c)
   )
-  (wire (pts (xy 196.85 138.43) (xy 209.55 138.43))
+  (wire (pts (xy 208.28 137.16) (xy 220.98 137.16))
     (stroke (width 0) (type default))
     (uuid 72ecd122-c7d8-4a2c-90da-eb33b45d48ff)
   )
@@ -1899,7 +1936,7 @@
     (stroke (width 0) (type default))
     (uuid 96b7915c-cccf-48cb-a165-49813042b18f)
   )
-  (wire (pts (xy 250.19 128.27) (xy 250.19 130.81))
+  (wire (pts (xy 257.81 127) (xy 257.81 129.54))
     (stroke (width 0) (type default))
     (uuid 96c4c10e-d028-49e9-b269-3ef468270e36)
   )
@@ -1919,7 +1956,7 @@
     (stroke (width 0) (type default))
     (uuid 99fbc514-5527-4749-a388-e3d8da9aa166)
   )
-  (wire (pts (xy 209.55 138.43) (xy 222.25 138.43))
+  (wire (pts (xy 220.98 137.16) (xy 233.68 137.16))
     (stroke (width 0) (type default))
     (uuid 9bc51534-0f57-4858-8d44-deba130709bf)
   )
@@ -1943,7 +1980,7 @@
     (stroke (width 0) (type default))
     (uuid abc49608-7ce9-4d3f-97d3-ef71afbfad39)
   )
-  (wire (pts (xy 242.57 130.81) (xy 250.19 130.81))
+  (wire (pts (xy 250.19 129.54) (xy 257.81 129.54))
     (stroke (width 0) (type default))
     (uuid ad6a22e1-9cc0-4c66-a817-b32c2f942e8b)
   )
@@ -1971,7 +2008,7 @@
     (stroke (width 0) (type default))
     (uuid b91949d8-46fa-4fdc-a661-cc5ae31bbf72)
   )
-  (wire (pts (xy 209.55 138.43) (xy 209.55 139.7))
+  (wire (pts (xy 220.98 137.16) (xy 220.98 138.43))
     (stroke (width 0) (type default))
     (uuid b9c567e6-820f-47fc-ac5b-41318f4de5b1)
   )
@@ -1983,7 +2020,7 @@
     (stroke (width 0) (type default))
     (uuid bc3361c5-e000-4aa3-8f58-cdeda04a3805)
   )
-  (wire (pts (xy 242.57 138.43) (xy 250.19 138.43))
+  (wire (pts (xy 250.19 137.16) (xy 257.81 137.16))
     (stroke (width 0) (type default))
     (uuid bc37642e-3f84-402a-9fac-283e84a75e6a)
   )
@@ -2019,7 +2056,7 @@
     (stroke (width 0) (type default))
     (uuid d026fd2d-fae9-45b7-95cb-4e68d5833964)
   )
-  (wire (pts (xy 191.77 109.22) (xy 194.31 109.22))
+  (wire (pts (xy 199.39 133.35) (xy 199.39 130.81))
     (stroke (width 0) (type default))
     (uuid d34d9506-aca9-4583-9516-732b06374e5c)
   )
@@ -2055,7 +2092,7 @@
     (stroke (width 0) (type default))
     (uuid e67bed0d-cce5-4bf3-8a5f-107f28c54460)
   )
-  (wire (pts (xy 196.85 130.81) (xy 209.55 130.81))
+  (wire (pts (xy 208.28 129.54) (xy 220.98 129.54))
     (stroke (width 0) (type default))
     (uuid e9cca0ed-eae0-4c91-807d-1d786b5e7afa)
   )
@@ -2067,7 +2104,7 @@
     (stroke (width 0) (type default))
     (uuid edee9225-ab99-43e3-afdf-4bddda54e668)
   )
-  (wire (pts (xy 250.19 130.81) (xy 256.54 130.81))
+  (wire (pts (xy 257.81 129.54) (xy 264.16 129.54))
     (stroke (width 0) (type default))
     (uuid f054d304-ba61-4fda-9b3d-49c20d53b7b0)
   )
@@ -2092,7 +2129,7 @@
     (uuid fbefe048-6b52-4e37-83db-674b1a7c39df)
   )
 
-  (rectangle (start 172.72 13.97) (end 281.94 113.03)
+  (rectangle (start 172.72 13.97) (end 281.94 156.21)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 0eae1d2f-3f3a-4f12-a6c7-167ef6284274)
@@ -2321,7 +2358,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid d42440ed-0332-4055-b613-6d91fa8ffb6e)
   )
-  (text "VDDA decoupling capacitors" (at 238.76 148.59 0)
+  (text "VDDA decoupling capacitors" (at 246.38 147.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d7489229-fb44-40f3-a405-b88e13afe9aa)
   )
@@ -2329,7 +2366,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d92d3bca-5158-4d24-9346-4e65a0ac832e)
   )
-  (text "VDD decoupling capacitors" (at 198.12 148.59 0)
+  (text "VDD decoupling capacitors" (at 209.55 147.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dabab173-4207-46a4-8241-e44e7f7ab103)
   )
@@ -2465,6 +2502,10 @@
     )
   )
 
+  (hierarchical_label "STM_GND" (shape input) (at 201.93 54.61 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 0188fa8b-32ff-4ef8-a180-d359b6e790ca)
+  )
   (hierarchical_label "3V3" (shape input) (at 67.31 26.67 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 08f9c5e8-595f-45e4-b6c9-4d53b7e129c1)
@@ -2497,7 +2538,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 59dda7f5-5d5d-444f-ad41-77df3418d681)
   )
-  (hierarchical_label "GND" (shape bidirectional) (at 194.31 109.22 0) (fields_autoplaced)
+  (hierarchical_label "GND" (shape bidirectional) (at 199.39 130.81 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 69df1889-3885-4c71-a9ef-d4327bb4c757)
   )
@@ -2509,11 +2550,11 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 881b33e8-eb47-4864-b8cb-acae327d7e01)
   )
-  (hierarchical_label "3V3" (shape input) (at 209.55 128.27 90) (fields_autoplaced)
+  (hierarchical_label "3V3" (shape input) (at 220.98 127 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8df6b178-4a77-4f61-80b2-398ffa6df482)
   )
-  (hierarchical_label "3V3" (shape input) (at 250.19 128.27 90) (fields_autoplaced)
+  (hierarchical_label "3V3" (shape input) (at 257.81 127 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 91d4ac0e-4a90-4527-b264-beb6f46126ec)
   )
@@ -2532,6 +2573,10 @@
   (hierarchical_label "A0" (shape input) (at 193.04 59.69 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c074f45e-63c7-4661-9981-16c4e979e6ee)
+  )
+  (hierarchical_label "STM_GND" (shape input) (at 184.15 127 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e2a8b8d0-615e-495d-836e-4c61b73a5b07)
   )
   (hierarchical_label "GPIO 0" (shape input) (at 193.04 62.23 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -2562,6 +2607,11 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
+          (reference "R31") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
           (reference "R31") (unit 1)
         )
       )
@@ -2623,6 +2673,11 @@
           (reference "J?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "J?") (unit 1)
+        )
+      )
     )
   )
 
@@ -2646,6 +2701,11 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
+          (reference "R29") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
           (reference "R29") (unit 1)
         )
       )
@@ -2675,22 +2735,27 @@
           (reference "R38") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "R38") (unit 1)
+        )
+      )
     )
   )
 
-  (symbol (lib_id "Device:C") (at 209.55 134.62 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 220.98 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bdd0270-5491-48eb-8287-eddb0107580e)
-    (property "Reference" "C12" (at 213.36 133.985 0)
+    (property "Reference" "C12" (at 224.79 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 213.36 136.525 0)
+    (property "Value" "100nF" (at 224.79 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 210.5152 138.43 0)
+    (property "Footprint" "" (at 221.9452 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 209.55 134.62 0)
+    (property "Datasheet" "~" (at 220.98 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d08e25ea-7d5e-41bf-8cae-9a33f8dfce4f))
@@ -2698,6 +2763,11 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
+          (reference "C12") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
           (reference "C12") (unit 1)
         )
       )
@@ -2724,6 +2794,11 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
+          (reference "R35") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
           (reference "R35") (unit 1)
         )
       )
@@ -2768,6 +2843,11 @@
       )
       (project "EEE3088F"
         (path "/55241c4b-74de-4f3f-ae14-f523593e7e6b"
+          (reference "J?") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
           (reference "J?") (unit 1)
         )
       )
@@ -2829,6 +2909,11 @@
           (reference "J?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "J?") (unit 1)
+        )
+      )
     )
   )
 
@@ -2887,6 +2972,11 @@
           (reference "J?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "J?") (unit 1)
+        )
+      )
     )
   )
 
@@ -2927,6 +3017,11 @@
           (reference "U6") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "U6") (unit 1)
+        )
+      )
     )
   )
 
@@ -2953,6 +3048,11 @@
           (reference "R30") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "R30") (unit 1)
+        )
+      )
     )
   )
 
@@ -2976,6 +3076,11 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
+          (reference "R36") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
           (reference "R36") (unit 1)
         )
       )
@@ -3014,6 +3119,11 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "#PWR?") (unit 1)
+        )
+      )
     )
   )
 
@@ -3046,6 +3156,11 @@
       )
       (project "EEE3088F"
         (path "/55241c4b-74de-4f3f-ae14-f523593e7e6b"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -3084,6 +3199,11 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "#PWR?") (unit 1)
+        )
+      )
     )
   )
 
@@ -3113,6 +3233,11 @@
       (project "EEE3088F"
         (path "/55241c4b-74de-4f3f-ae14-f523593e7e6b"
           (reference "R?") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -3155,22 +3280,27 @@
           (reference "J?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "J?") (unit 1)
+        )
+      )
     )
   )
 
-  (symbol (lib_id "Device:C") (at 242.57 134.62 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 250.19 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c41a832-7420-4e96-9252-c3ae4a99fa9f)
-    (property "Reference" "C14" (at 246.38 133.985 0)
+    (property "Reference" "C14" (at 254 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 246.38 136.525 0)
+    (property "Value" "10nF" (at 254 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 243.5352 138.43 0)
+    (property "Footprint" "" (at 251.1552 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 242.57 134.62 0)
+    (property "Datasheet" "~" (at 250.19 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6114fb9e-254f-4d97-9571-9fcfe3349a3b))
@@ -3178,6 +3308,11 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
+          (reference "C14") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
           (reference "C14") (unit 1)
         )
       )
@@ -3207,22 +3342,27 @@
           (reference "R34") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "R34") (unit 1)
+        )
+      )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 191.77 109.22 270) (unit 1)
+  (symbol (lib_id "power:GND") (at 199.39 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71667676-6877-4d33-bac9-d0d20d69cf47)
-    (property "Reference" "#PWR?" (at 185.42 109.22 0)
+    (property "Reference" "#PWR?" (at 199.39 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 187.96 109.855 90)
+    (property "Value" "GND" (at 200.025 137.16 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 191.77 109.22 0)
+    (property "Footprint" "" (at 199.39 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 191.77 109.22 0)
+    (property "Datasheet" "" (at 199.39 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7152bc4b-201c-422f-96e3-74e213072132))
@@ -3242,22 +3382,27 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "#PWR?") (unit 1)
+        )
+      )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 250.19 139.7 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 257.81 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 716e1d7b-ba4c-4a9d-9f8c-d78c08a6cc3a)
-    (property "Reference" "#PWR?" (at 250.19 146.05 0)
+    (property "Reference" "#PWR?" (at 257.81 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 250.19 144.78 0)
+    (property "Value" "GND" (at 257.81 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 250.19 139.7 0)
+    (property "Footprint" "" (at 257.81 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 250.19 139.7 0)
+    (property "Datasheet" "" (at 257.81 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 065023ed-f8b2-4ca6-bc77-cfd629b32f77))
@@ -3277,22 +3422,27 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "#PWR?") (unit 1)
+        )
+      )
     )
   )
 
-  (symbol (lib_id "Device:C") (at 196.85 134.62 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 208.28 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74b21f66-da1b-4862-b92d-4a8b8a0cbc7f)
-    (property "Reference" "C11" (at 200.66 133.985 0)
+    (property "Reference" "C11" (at 212.09 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 200.66 136.525 0)
+    (property "Value" "100nF" (at 212.09 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 197.8152 138.43 0)
+    (property "Footprint" "" (at 209.2452 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 196.85 134.62 0)
+    (property "Datasheet" "~" (at 208.28 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d71cadb5-ad9b-4344-ba8d-e6abe16351fc))
@@ -3300,6 +3450,11 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
+          (reference "C11") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
           (reference "C11") (unit 1)
         )
       )
@@ -3332,6 +3487,11 @@
       (project "EEE3088F"
         (path "/55241c4b-74de-4f3f-ae14-f523593e7e6b"
           (reference "R?") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -3369,6 +3529,11 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "#PWR?") (unit 1)
+        )
+      )
     )
   )
 
@@ -3401,6 +3566,11 @@
       )
       (project "EEE3088F"
         (path "/55241c4b-74de-4f3f-ae14-f523593e7e6b"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -3462,6 +3632,11 @@
           (reference "J?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "J?") (unit 1)
+        )
+      )
     )
   )
 
@@ -3491,6 +3666,11 @@
       (project "EEE3088F"
         (path "/55241c4b-74de-4f3f-ae14-f523593e7e6b"
           (reference "C?") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -3535,6 +3715,11 @@
           (reference "U?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "U?") (unit 1)
+        )
+      )
     )
   )
 
@@ -3570,6 +3755,11 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "#PWR?") (unit 1)
+        )
+      )
     )
   )
 
@@ -3593,6 +3783,11 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
+          (reference "R37") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
           (reference "R37") (unit 1)
         )
       )
@@ -3631,6 +3826,36 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 184.15 132.08 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c9b78b34-9195-4bf1-b192-7bf81dace0bc)
+    (property "Reference" "J12" (at 186.69 132.08 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01" (at 182.245 134.62 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 184.15 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 184.15 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9ff2b349-ad4f-4cac-b8fc-bab447774ffc))
+    (instances
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
+          (reference "J12") (unit 1)
+        )
+      )
     )
   )
 
@@ -3666,22 +3891,27 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "#PWR?") (unit 1)
+        )
+      )
     )
   )
 
-  (symbol (lib_id "Device:C") (at 222.25 134.62 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 233.68 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d993a6fd-916e-49a2-b1fc-172bc92138a5)
-    (property "Reference" "C13" (at 226.06 133.985 0)
+    (property "Reference" "C13" (at 237.49 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7uF" (at 226.06 136.525 0)
+    (property "Value" "4.7uF" (at 237.49 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 223.2152 138.43 0)
+    (property "Footprint" "" (at 234.6452 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 222.25 134.62 0)
+    (property "Datasheet" "~" (at 233.68 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 87ae02f4-28e5-4d03-8577-18fda12c0fff))
@@ -3692,22 +3922,27 @@
           (reference "C13") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "C13") (unit 1)
+        )
+      )
     )
   )
 
-  (symbol (lib_id "Device:C") (at 256.54 134.62 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 264.16 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6e5f4ae-0aa8-4042-9b4e-15f055e34291)
-    (property "Reference" "C15" (at 260.35 133.985 0)
+    (property "Reference" "C15" (at 267.97 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1uF" (at 260.35 136.525 0)
+    (property "Value" "1uF" (at 267.97 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 257.5052 138.43 0)
+    (property "Footprint" "" (at 265.1252 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 256.54 134.62 0)
+    (property "Datasheet" "~" (at 264.16 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3a7078ca-1005-42b6-a684-dce4fbe06e1b))
@@ -3718,22 +3953,27 @@
           (reference "C15") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "C15") (unit 1)
+        )
+      )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 209.55 139.7 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 220.98 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1253ebb-1b5f-4e67-a869-959b9f71a6d3)
-    (property "Reference" "#PWR?" (at 209.55 146.05 0)
+    (property "Reference" "#PWR?" (at 220.98 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 209.55 144.78 0)
+    (property "Value" "GND" (at 220.98 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 209.55 139.7 0)
+    (property "Footprint" "" (at 220.98 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 209.55 139.7 0)
+    (property "Datasheet" "" (at 220.98 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 753a6eea-a049-4bcd-b057-a366aae24037))
@@ -3753,6 +3993,15 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "#PWR?") (unit 1)
+        )
+      )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
