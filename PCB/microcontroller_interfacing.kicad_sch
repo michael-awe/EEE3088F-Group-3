@@ -14,6 +14,50 @@
   )
 
   (lib_symbols
+    (symbol "Connector:Conn_01x01_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x01_Pin" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x01, script generated" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x01_Pin_1_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 0.8636 0)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0.8636 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 5.08 0 180) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:Conn_01x10_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 12.7 0)
         (effects (font (size 1.27 1.27)))
@@ -1177,43 +1221,6 @@
         )
       )
     )
-    (symbol "Connector_Generic:Conn_01x01" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x01" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x01_1_1"
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 1.27) (end 1.27 -1.27)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1663,6 +1670,7 @@
     )
   )
 
+
   (junction (at 48.26 54.61) (diameter 0) (color 0 0 0 0)
     (uuid 066bf32c-bb24-4711-974a-0257e018911e)
   )
@@ -1709,6 +1717,7 @@
     (uuid f8cfe803-f8c2-4ae6-be32-43ec8e972f11)
   )
 
+  (no_connect (at 119.38 106.68) (uuid 2d95ee90-9fcf-47e4-8354-537560e24710))
   (no_connect (at 54.61 85.09) (uuid 3a210a6c-81e6-42a0-9566-9f42aaa8d75c))
   (no_connect (at 127 99.06) (uuid 46fb2c5c-bce5-40ad-a94f-ea051518739f))
   (no_connect (at 139.7 124.46) (uuid 50ba061d-a788-4fa4-8e0c-f75d43305d44))
@@ -2665,10 +2674,6 @@
     )
   )
 
-  (hierarchical_label "STM_GND" (shape input) (at 201.93 54.61 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 0188fa8b-32ff-4ef8-a180-d359b6e790ca)
-  )
   (hierarchical_label "3V3" (shape input) (at 67.31 26.67 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 08f9c5e8-595f-45e4-b6c9-4d53b7e129c1)
@@ -2745,10 +2750,6 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c074f45e-63c7-4661-9981-16c4e979e6ee)
   )
-  (hierarchical_label "STM_GND" (shape input) (at 184.15 127 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid e2a8b8d0-615e-495d-836e-4c61b73a5b07)
-  )
   (hierarchical_label "GPIO 0" (shape input) (at 193.04 62.23 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f0c2c59e-08cc-4512-8297-75a2261fa7be)
@@ -2761,7 +2762,7 @@
   (symbol (lib_id "Device:R") (at 62.23 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04e45407-82c8-4b03-87c3-3902533d6a69)
-    (property "Reference" "R31" (at 63.5 48.26 90)
+    (property "Reference" "R27" (at 63.5 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 62.23 45.72 90)
@@ -2778,12 +2779,12 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "R31") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "R31") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2814,7 +2815,7 @@
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "Y1") (unit 1)
+          (reference "Y?") (unit 1)
         )
       )
     )
@@ -2844,7 +2845,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -2926,7 +2927,7 @@
   (symbol (lib_id "Device:C_Small") (at 73.66 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13038ec1-1d9a-49b0-a969-4fa100b0ff2f)
-    (property "Reference" "C17" (at 76.2 139.0713 0)
+    (property "Reference" "C11" (at 76.2 139.0713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10pF" (at 76.2 141.6113 0)
@@ -2943,7 +2944,7 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "C17") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2952,7 +2953,7 @@
   (symbol (lib_id "Device:R") (at 48.26 34.29 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 188353eb-a011-4310-8fb4-f4de6d859fb8)
-    (property "Reference" "R29" (at 50.8 34.29 90)
+    (property "Reference" "R25" (at 50.8 34.29 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 48.26 34.29 90)
@@ -2969,12 +2970,12 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "R29") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "R29") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2983,7 +2984,7 @@
   (symbol (lib_id "Device:R") (at 147.32 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2590564f-170c-472e-97c9-72a0139a414f)
-    (property "Reference" "R38" (at 147.32 109.22 90)
+    (property "Reference" "R34" (at 147.32 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 147.32 106.68 90)
@@ -3000,12 +3001,12 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "R38") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "R38") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3014,7 +3015,7 @@
   (symbol (lib_id "Device:C") (at 220.98 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bdd0270-5491-48eb-8287-eddb0107580e)
-    (property "Reference" "C12" (at 224.79 132.715 0)
+    (property "Reference" "C14" (at 224.79 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 224.79 135.255 0)
@@ -3031,12 +3032,12 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "C12") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "C12") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -3045,7 +3046,7 @@
   (symbol (lib_id "Device:R") (at 144.78 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e92bfdf-a263-4bdc-b72d-91ad4e75ec50)
-    (property "Reference" "R35" (at 144.78 40.64 90)
+    (property "Reference" "R31" (at 144.78 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 144.78 38.1 90)
@@ -3062,12 +3063,12 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "R35") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "R35") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3106,7 +3107,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "J6") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -3188,7 +3189,7 @@
   (symbol (lib_id "Device:C_Small") (at 35.56 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 509e9d0d-5a35-4331-8aed-40cde7881d7e)
-    (property "Reference" "C16" (at 38.1 139.0713 0)
+    (property "Reference" "C10" (at 38.1 139.0713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10pF" (at 38.1 141.6113 0)
@@ -3205,7 +3206,7 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "C16") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -3277,7 +3278,7 @@
   (symbol (lib_id "Interface_USB:CH340C") (at 129.54 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54571746-3bed-4a48-b883-f4e0e235f6f8)
-    (property "Reference" "U6" (at 131.4959 129.54 0)
+    (property "Reference" "U7" (at 131.4959 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CH340C" (at 131.4959 132.08 0)
@@ -3308,12 +3309,12 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "U6") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "U6") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -3322,7 +3323,7 @@
   (symbol (lib_id "Device:R") (at 62.23 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d5b205d-9ac8-44bd-beef-8c7619606b0b)
-    (property "Reference" "R30" (at 63.5 40.64 90)
+    (property "Reference" "R26" (at 63.5 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 62.23 43.18 90)
@@ -3339,12 +3340,12 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "R30") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "R30") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3353,7 +3354,7 @@
   (symbol (lib_id "Device:R") (at 146.05 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e556f3e-22cf-4091-a30f-70bf02a32f91)
-    (property "Reference" "R36" (at 146.05 57.15 90)
+    (property "Reference" "R32" (at 146.05 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 146.05 54.61 90)
@@ -3370,12 +3371,12 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "R36") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "R36") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3405,7 +3406,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -3485,7 +3486,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -3504,7 +3505,7 @@
   (symbol (lib_id "Device:R_Small") (at 66.04 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 643a5335-7f77-4a8c-85d0-4add41a2024f)
-    (property "Reference" "R32" (at 60.96 31.75 0)
+    (property "Reference" "R28" (at 60.96 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K" (at 59.69 34.29 0)
@@ -3521,7 +3522,7 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "R32") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -3531,7 +3532,7 @@
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "R32") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3566,7 +3567,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "J7") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -3585,7 +3586,7 @@
   (symbol (lib_id "Device:C") (at 250.19 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c41a832-7420-4e96-9252-c3ae4a99fa9f)
-    (property "Reference" "C14" (at 254 132.715 0)
+    (property "Reference" "C16" (at 254 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 254 135.255 0)
@@ -3602,12 +3603,12 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "C14") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "C14") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -3637,7 +3638,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -3656,7 +3657,7 @@
   (symbol (lib_id "Device:R") (at 129.54 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e58ea63-52d5-4835-9a4c-6bf42e28314b)
-    (property "Reference" "R34" (at 127 91.44 90)
+    (property "Reference" "R30" (at 127 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 129.54 91.44 90)
@@ -3673,12 +3674,12 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "R34") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "R34") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3708,7 +3709,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -3748,7 +3749,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -3767,7 +3768,7 @@
   (symbol (lib_id "Device:C") (at 208.28 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74b21f66-da1b-4862-b92d-4a8b8a0cbc7f)
-    (property "Reference" "C11" (at 212.09 132.715 0)
+    (property "Reference" "C13" (at 212.09 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 212.09 135.255 0)
@@ -3784,12 +3785,12 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "C11") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "C11") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -3798,7 +3799,7 @@
   (symbol (lib_id "Device:R_Small") (at 68.58 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 796f691d-75fe-4006-bf8e-f8c2d064aef5)
-    (property "Reference" "R33" (at 71.12 32.385 0)
+    (property "Reference" "R29" (at 71.12 32.385 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K" (at 71.12 34.925 0)
@@ -3815,7 +3816,7 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "R33") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -3825,7 +3826,7 @@
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "R33") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3855,7 +3856,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -3974,10 +3975,35 @@
     )
   )
 
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 186.436 130.048 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a7eef6da-4aed-4da6-84c1-b94f8dccfd67)
+    (property "Reference" "J7" (at 188.976 130.048 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 183.896 130.048 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 186.436 130.048 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 186.436 130.048 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bb00bda0-9b73-4f41-bc81-625b5db607ce))
+    (instances
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
+          (reference "J7") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 133.35 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a814c9ae-e0ed-4a47-8241-8b8ca6f1fd10)
-    (property "Reference" "C10" (at 133.3563 90.17 90)
+    (property "Reference" "C12" (at 133.3563 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 133.3563 92.71 90)
@@ -3994,7 +4020,7 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "C10") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -4004,7 +4030,7 @@
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "C10") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -4041,7 +4067,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "U5") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -4081,7 +4107,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -4100,7 +4126,7 @@
   (symbol (lib_id "Device:R") (at 147.32 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bae605ce-86d1-4035-a87d-732645fa7993)
-    (property "Reference" "R37" (at 147.32 101.6 90)
+    (property "Reference" "R33" (at 147.32 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 147.32 104.14 90)
@@ -4117,12 +4143,52 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "R37") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "R37") (unit 1)
+          (reference "R?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 186.436 135.128 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c1eff0c3-b538-4e04-81b4-7de46e572d66)
+    (property "Reference" "#PWR?" (at 186.436 141.478 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 187.071 138.938 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 186.436 135.128 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 186.436 135.128 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b0bf7b62-109a-4294-9488-7334496d0c3e))
+    (instances
+      (project "Main"
+        (path "/1e9f3d34-a4c0-4684-8b0d-9d61663dabf9/dc5135c5-d6ed-4046-bf12-773bd1e5ac0e"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
+          (reference "#PWR037") (unit 1)
+        )
+      )
+      (project "EEE3088F"
+        (path "/55241c4b-74de-4f3f-ae14-f523593e7e6b"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "microcontroller_interfacing"
+        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4152,7 +4218,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -4163,36 +4229,6 @@
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
           (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 184.15 132.08 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c9b78b34-9195-4bf1-b192-7bf81dace0bc)
-    (property "Reference" "J12" (at 186.69 132.08 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x01" (at 182.245 134.62 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 184.15 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 184.15 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9ff2b349-ad4f-4cac-b8fc-bab447774ffc))
-    (instances
-      (project "HAT"
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "J12") (unit 1)
-        )
-      )
-      (project "microcontroller_interfacing"
-        (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "J12") (unit 1)
         )
       )
     )
@@ -4222,7 +4258,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "EEE3088F"
@@ -4241,7 +4277,7 @@
   (symbol (lib_id "Device:C") (at 233.68 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d993a6fd-916e-49a2-b1fc-172bc92138a5)
-    (property "Reference" "C13" (at 237.49 132.715 0)
+    (property "Reference" "C15" (at 237.49 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 237.49 135.255 0)
@@ -4258,12 +4294,12 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "C13") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "C13") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -4272,7 +4308,7 @@
   (symbol (lib_id "Device:C") (at 264.16 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6e5f4ae-0aa8-4042-9b4e-15f055e34291)
-    (property "Reference" "C15" (at 267.97 132.715 0)
+    (property "Reference" "C17" (at 267.97 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 267.97 135.255 0)
@@ -4289,12 +4325,12 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "C15") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
       (project "microcontroller_interfacing"
         (path "/c6fae1fa-c03b-4824-9bbc-e6d6ca34daa9"
-          (reference "C15") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -4315,7 +4351,7 @@
     (property "Datasheet" "" (at 220.98 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 753a6eea-a04bcd-b057-a366aae24037))
+    (pin "1" (uuid a95b4d14-1ae9-4f67-8174-c832cd183731))
     (instances
       (project "Main"
         (path "/1e9f3d34-a4c0-4684-8b0d-9d61663dabf9/dc5135c5-d6ed-4046-bf12-773bd1e5ac0e"
@@ -4324,7 +4360,7 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/b7b1774d-5583-4628-a0c2-f9ec68f1422c"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "EEE3088F"
