@@ -737,10 +737,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R15") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
       (project "main"
@@ -781,10 +781,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R21") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R20") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
       (project "main"
@@ -803,7 +803,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 82.55 148.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d95f867-a26b-4b43-b961-8c7dfc090243)
-    (property "Reference" "J3" (at 86.36 147.32 90)
+    (property "Reference" "J?" (at 86.36 147.32 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 78.74 149.86 90)
@@ -820,10 +820,10 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "J3") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "J4") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
       (project "Sensor_Module"
@@ -859,10 +859,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R23") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R21") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
       (project "main"
@@ -881,7 +881,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 189.23 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a89047f-69f9-4ef4-9722-ed252590b5b7)
-    (property "Reference" "J3" (at 193.04 67.31 90)
+    (property "Reference" "J?" (at 193.04 67.31 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 185.42 69.85 90)
@@ -898,10 +898,10 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "J3") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "J1") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
       (project "Sensor_Module"
@@ -937,10 +937,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R16") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
       (project "main"
@@ -959,7 +959,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 83.82 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 526f2953-9be3-422b-a093-4a7d85497ba8)
-    (property "Reference" "J3" (at 87.63 67.31 90)
+    (property "Reference" "J?" (at 87.63 67.31 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 80.01 69.85 90)
@@ -976,10 +976,10 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "J3") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "J3") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
       (project "Sensor_Module"
@@ -1015,10 +1015,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R21") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R19") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
       (project "main"
@@ -1059,10 +1059,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R23") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R22") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
       (project "main"
@@ -1103,10 +1103,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R23") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R44") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
       (project "main"
@@ -1147,10 +1147,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R19") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R17") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
       (project "main"
@@ -1169,7 +1169,7 @@
   (symbol (lib_id "Transistor_FET:BSS138") (at 85.09 50.8 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab30644d-2030-442f-8bc4-1bf29fad8e87)
-    (property "Reference" "Q4" (at 85.09 58.42 90)
+    (property "Reference" "Q5" (at 85.09 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BSS138" (at 85.09 60.96 90)
@@ -1187,7 +1187,7 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "Q4") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -1218,10 +1218,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R23") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R13") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
       (project "main"
@@ -1262,10 +1262,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R19") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R9") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
       (project "main"
@@ -1333,10 +1333,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R21") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R12") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
       (project "main"
@@ -1377,10 +1377,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R23") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
       (project "main"
@@ -1399,7 +1399,7 @@
   (symbol (lib_id "Transistor_FET:BSS138") (at 83.82 130.81 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4d4557d-5294-4e7c-a29e-c12cf8160282)
-    (property "Reference" "Q3" (at 83.82 138.43 90)
+    (property "Reference" "Q4" (at 83.82 138.43 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BSS138" (at 83.82 140.97 90)
@@ -1417,7 +1417,7 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "Q3") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -1448,10 +1448,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R21") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R43") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
       (project "main"
@@ -1470,7 +1470,7 @@
   (symbol (lib_id "Transistor_FET:BSS138") (at 196.85 130.81 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6f7a871-6a13-476b-bd2f-22cf97a3e544)
-    (property "Reference" "Q5" (at 196.85 138.43 90)
+    (property "Reference" "Q7" (at 196.85 138.43 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BSS138" (at 196.85 140.97 90)
@@ -1488,7 +1488,7 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "Q5") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
     )
@@ -1497,7 +1497,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 195.58 148.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef4947be-259f-4758-bf43-92af4df481de)
-    (property "Reference" "J3" (at 199.39 147.32 90)
+    (property "Reference" "J?" (at 199.39 147.32 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 191.77 149.86 90)
@@ -1514,10 +1514,10 @@
     (instances
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "J3") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "J13") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
       (project "Sensor_Module"
@@ -1553,10 +1553,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R19") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R18") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
       (project "main"
@@ -1597,10 +1597,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R8") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
       (project "main"
@@ -1641,10 +1641,10 @@
       )
       (project "HAT"
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R19") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R24") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
       (project "main"
