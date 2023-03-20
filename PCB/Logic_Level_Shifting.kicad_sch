@@ -721,7 +721,7 @@
     (property "Value" "0" (at 63.5 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 63.5 55.118 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 63.5 55.118 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 63.5 53.34 0)
@@ -740,7 +740,7 @@
           (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R36") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
       (project "main"
@@ -765,7 +765,7 @@
     (property "Value" "10K" (at 99.06 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 94.742 123.19 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 94.742 123.19 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 96.52 123.19 0)
@@ -784,7 +784,7 @@
           (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R39") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
       (project "main"
@@ -809,7 +809,7 @@
     (property "Value" "Conn_01x02_Pin" (at 78.74 149.86 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "" (at 82.55 148.59 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (at 82.55 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 82.55 148.59 0)
@@ -843,7 +843,7 @@
     (property "Value" "0" (at 110.49 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 110.49 55.118 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 110.49 55.118 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.49 53.34 0)
@@ -862,7 +862,7 @@
           (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R42") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
       (project "main"
@@ -887,7 +887,7 @@
     (property "Value" "Conn_01x02_Pin" (at 185.42 69.85 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "" (at 189.23 68.58 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (at 189.23 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 189.23 68.58 0)
@@ -921,7 +921,7 @@
     (property "Value" "0" (at 62.23 130.81 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 62.23 135.128 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 62.23 135.128 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 62.23 133.35 0)
@@ -940,7 +940,7 @@
           (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R35") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
       (project "main"
@@ -965,7 +965,7 @@
     (property "Value" "Conn_01x02_Pin" (at 80.01 69.85 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "" (at 83.82 68.58 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (at 83.82 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 83.82 68.58 0)
@@ -999,7 +999,7 @@
     (property "Value" "10K" (at 100.33 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 96.012 43.18 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 96.012 43.18 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 43.18 0)
@@ -1007,50 +1007,6 @@
     )
     (pin "1" (uuid 6c8125a8-6e51-414f-a99e-564ff43adc69))
     (pin "2" (uuid ffec70be-cbe6-425f-bc15-04ee671c5f65))
-    (instances
-      (project "Sensor_ModuleOld"
-        (path "/038854bb-101b-4dc9-9b0a-a0f227e0c810"
-          (reference "R?") (unit 1)
-        )
-      )
-      (project "HAT"
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R?") (unit 1)
-        )
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R40") (unit 1)
-        )
-      )
-      (project "main"
-        (path "/4c07aeb9-c561-4d47-852e-b412a3ede5f6/463d35d1-4dbf-4ac6-acf8-1939d32ca00e"
-          (reference "R?") (unit 1)
-        )
-      )
-      (project "Sensor_Module"
-        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
-          (reference "R?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 109.22 133.35 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 87f8ca27-d9d3-4f5e-91aa-be20d4fc6b07)
-    (property "Reference" "R?" (at 109.22 128.27 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0" (at 109.22 130.81 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 109.22 135.128 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 109.22 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 56ada7b3-5f99-476c-bb5a-8f021405b32f))
-    (pin "2" (uuid ea9d48b7-ff8f-4694-8af7-5bb16f99a4d7))
     (instances
       (project "Sensor_ModuleOld"
         (path "/038854bb-101b-4dc9-9b0a-a0f227e0c810"
@@ -1078,6 +1034,50 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 109.22 133.35 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 87f8ca27-d9d3-4f5e-91aa-be20d4fc6b07)
+    (property "Reference" "R?" (at 109.22 128.27 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0" (at 109.22 130.81 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 109.22 135.128 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.22 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 56ada7b3-5f99-476c-bb5a-8f021405b32f))
+    (pin "2" (uuid ea9d48b7-ff8f-4694-8af7-5bb16f99a4d7))
+    (instances
+      (project "Sensor_ModuleOld"
+        (path "/038854bb-101b-4dc9-9b0a-a0f227e0c810"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
+          (reference "R?") (unit 1)
+        )
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
+          (reference "R42") (unit 1)
+        )
+      )
+      (project "main"
+        (path "/4c07aeb9-c561-4d47-852e-b412a3ede5f6/463d35d1-4dbf-4ac6-acf8-1939d32ca00e"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Sensor_Module"
+        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
+          (reference "R?") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 222.25 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f5b6a07-2255-4d6b-96d3-c9ae6001751a)
@@ -1087,7 +1087,7 @@
     (property "Value" "0" (at 222.25 130.81 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 222.25 135.128 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 222.25 135.128 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 222.25 133.35 0)
@@ -1095,6 +1095,121 @@
     )
     (pin "1" (uuid c3d38ea7-9b35-4bff-b71d-8ba8825a7ad1))
     (pin "2" (uuid e8b7c8de-1699-4d49-aebb-33ebc9140918))
+    (instances
+      (project "Sensor_ModuleOld"
+        (path "/038854bb-101b-4dc9-9b0a-a0f227e0c810"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
+          (reference "R?") (unit 1)
+        )
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
+          (reference "R51") (unit 1)
+        )
+      )
+      (project "main"
+        (path "/4c07aeb9-c561-4d47-852e-b412a3ede5f6/463d35d1-4dbf-4ac6-acf8-1939d32ca00e"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Sensor_Module"
+        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
+          (reference "R?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 73.66 43.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 92c69b67-934c-4f75-8d34-48d69a3f2b70)
+    (property "Reference" "R?" (at 76.2 42.545 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 76.2 45.085 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 71.882 43.18 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 73.66 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 10f2082a-174b-47bd-adbb-83e1b21d0ae5))
+    (pin "2" (uuid 1fb5671b-f6af-4475-83ae-665581a5dba8))
+    (instances
+      (project "Sensor_ModuleOld"
+        (path "/038854bb-101b-4dc9-9b0a-a0f227e0c810"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
+          (reference "R?") (unit 1)
+        )
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
+          (reference "R39") (unit 1)
+        )
+      )
+      (project "main"
+        (path "/4c07aeb9-c561-4d47-852e-b412a3ede5f6/463d35d1-4dbf-4ac6-acf8-1939d32ca00e"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Sensor_Module"
+        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
+          (reference "R?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Transistor_FET:BSS138") (at 85.09 50.8 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ab30644d-2030-442f-8bc4-1bf29fad8e87)
+    (property "Reference" "Q5" (at 85.09 58.42 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "BSS138" (at 85.09 60.96 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "JLC_Mosfet:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR" (at 83.185 55.88 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 85.09 50.8 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 5196087a-8743-4097-b328-020ed561306e))
+    (pin "2" (uuid 907f506c-4d58-45b5-8324-9407d5a25dcb))
+    (pin "3" (uuid f88a57f0-2839-447d-b03d-9d933db1f22b))
+    (instances
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
+          (reference "Q5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 215.9 53.34 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b5759ae0-94fe-4c93-b9ad-a988cc459f01)
+    (property "Reference" "R?" (at 215.9 48.26 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0" (at 215.9 50.8 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 215.9 55.118 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 215.9 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bab8ea06-241e-46c1-9955-acb721fc2b10))
+    (pin "2" (uuid 5c40a886-979f-43a4-90c6-3d171c3a3166))
     (instances
       (project "Sensor_ModuleOld"
         (path "/038854bb-101b-4dc9-9b0a-a0f227e0c810"
@@ -1122,121 +1237,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 73.66 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 92c69b67-934c-4f75-8d34-48d69a3f2b70)
-    (property "Reference" "R?" (at 76.2 42.545 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10K" (at 76.2 45.085 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 71.882 43.18 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 73.66 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 10f2082a-174b-47bd-adbb-83e1b21d0ae5))
-    (pin "2" (uuid 1fb5671b-f6af-4475-83ae-665581a5dba8))
-    (instances
-      (project "Sensor_ModuleOld"
-        (path "/038854bb-101b-4dc9-9b0a-a0f227e0c810"
-          (reference "R?") (unit 1)
-        )
-      )
-      (project "HAT"
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R?") (unit 1)
-        )
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R38") (unit 1)
-        )
-      )
-      (project "main"
-        (path "/4c07aeb9-c561-4d47-852e-b412a3ede5f6/463d35d1-4dbf-4ac6-acf8-1939d32ca00e"
-          (reference "R?") (unit 1)
-        )
-      )
-      (project "Sensor_Module"
-        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
-          (reference "R?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Transistor_FET:BSS138") (at 85.09 50.8 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ab30644d-2030-442f-8bc4-1bf29fad8e87)
-    (property "Reference" "Q5" (at 85.09 58.42 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BSS138" (at 85.09 60.96 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 83.185 55.88 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 85.09 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 5196087a-8743-4097-b328-020ed561306e))
-    (pin "2" (uuid 907f506c-4d58-45b5-8324-9407d5a25dcb))
-    (pin "3" (uuid f88a57f0-2839-447d-b03d-9d933db1f22b))
-    (instances
-      (project "HAT"
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "Q5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 215.9 53.34 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b5759ae0-94fe-4c93-b9ad-a988cc459f01)
-    (property "Reference" "R?" (at 215.9 48.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0" (at 215.9 50.8 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 215.9 55.118 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 215.9 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bab8ea06-241e-46c1-9955-acb721fc2b10))
-    (pin "2" (uuid 5c40a886-979f-43a4-90c6-3d171c3a3166))
-    (instances
-      (project "Sensor_ModuleOld"
-        (path "/038854bb-101b-4dc9-9b0a-a0f227e0c810"
-          (reference "R?") (unit 1)
-        )
-      )
-      (project "HAT"
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R?") (unit 1)
-        )
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R49") (unit 1)
-        )
-      )
-      (project "main"
-        (path "/4c07aeb9-c561-4d47-852e-b412a3ede5f6/463d35d1-4dbf-4ac6-acf8-1939d32ca00e"
-          (reference "R?") (unit 1)
-        )
-      )
-      (project "Sensor_Module"
-        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
-          (reference "R?") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 179.07 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ceed4291-5723-4a2c-8ee5-35e6f24e3547)
@@ -1246,7 +1246,7 @@
     (property "Value" "10K" (at 181.61 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 177.292 43.18 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 177.292 43.18 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 43.18 0)
@@ -1265,7 +1265,7 @@
           (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R45") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
       (project "main"
@@ -1290,7 +1290,7 @@
     (property "Value" "BSS138" (at 190.5 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 188.595 55.88 0)
+    (property "Footprint" "JLC_Mosfet:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR" (at 188.595 55.88 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 190.5 50.8 0)
@@ -1317,7 +1317,7 @@
     (property "Value" "10K" (at 205.74 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 201.422 43.18 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 201.422 43.18 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 203.2 43.18 0)
@@ -1325,121 +1325,6 @@
     )
     (pin "1" (uuid 4d1a2ded-88c0-4d0f-98a3-f07b378e653f))
     (pin "2" (uuid d818311a-d190-4e6f-aeda-77877018fc94))
-    (instances
-      (project "Sensor_ModuleOld"
-        (path "/038854bb-101b-4dc9-9b0a-a0f227e0c810"
-          (reference "R?") (unit 1)
-        )
-      )
-      (project "HAT"
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R?") (unit 1)
-        )
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R47") (unit 1)
-        )
-      )
-      (project "main"
-        (path "/4c07aeb9-c561-4d47-852e-b412a3ede5f6/463d35d1-4dbf-4ac6-acf8-1939d32ca00e"
-          (reference "R?") (unit 1)
-        )
-      )
-      (project "Sensor_Module"
-        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
-          (reference "R?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 175.26 133.35 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e013f2af-99b4-4c1e-9031-8bc8816c65d0)
-    (property "Reference" "R?" (at 175.26 128.27 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "0" (at 175.26 130.81 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 175.26 135.128 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 175.26 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d3df44df-b773-4041-8254-93ec2574cbc7))
-    (pin "2" (uuid 7abff1d6-528f-4cbd-bead-c5df0aea014f))
-    (instances
-      (project "Sensor_ModuleOld"
-        (path "/038854bb-101b-4dc9-9b0a-a0f227e0c810"
-          (reference "R?") (unit 1)
-        )
-      )
-      (project "HAT"
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "R?") (unit 1)
-        )
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R44") (unit 1)
-        )
-      )
-      (project "main"
-        (path "/4c07aeb9-c561-4d47-852e-b412a3ede5f6/463d35d1-4dbf-4ac6-acf8-1939d32ca00e"
-          (reference "R?") (unit 1)
-        )
-      )
-      (project "Sensor_Module"
-        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
-          (reference "R?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Transistor_FET:BSS138") (at 83.82 130.81 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e4d4557d-5294-4e7c-a29e-c12cf8160282)
-    (property "Reference" "Q4" (at 83.82 138.43 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BSS138" (at 83.82 140.97 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 81.915 135.89 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 83.82 130.81 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid fc388280-a5d9-4212-b880-a11d724860b2))
-    (pin "2" (uuid 68327779-ebf6-4382-9933-5b03cc8cbf1b))
-    (pin "3" (uuid b56252df-d4dc-4df0-a8bf-cfa61093bebd))
-    (instances
-      (project "HAT"
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "Q4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 209.55 123.19 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e51ac452-84c5-4caa-8f3c-787705826fff)
-    (property "Reference" "R?" (at 212.09 122.555 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10K" (at 212.09 125.095 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 207.772 123.19 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 209.55 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d0bda08f-c069-44d3-91a6-684df775f3ec))
-    (pin "2" (uuid f9a9f1ea-a11c-454e-a9d2-86e7d175a6a6))
     (instances
       (project "Sensor_ModuleOld"
         (path "/038854bb-101b-4dc9-9b0a-a0f227e0c810"
@@ -1467,6 +1352,121 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 175.26 133.35 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e013f2af-99b4-4c1e-9031-8bc8816c65d0)
+    (property "Reference" "R?" (at 175.26 128.27 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "0" (at 175.26 130.81 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 175.26 135.128 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 175.26 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d3df44df-b773-4041-8254-93ec2574cbc7))
+    (pin "2" (uuid 7abff1d6-528f-4cbd-bead-c5df0aea014f))
+    (instances
+      (project "Sensor_ModuleOld"
+        (path "/038854bb-101b-4dc9-9b0a-a0f227e0c810"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
+          (reference "R?") (unit 1)
+        )
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
+          (reference "R45") (unit 1)
+        )
+      )
+      (project "main"
+        (path "/4c07aeb9-c561-4d47-852e-b412a3ede5f6/463d35d1-4dbf-4ac6-acf8-1939d32ca00e"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Sensor_Module"
+        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
+          (reference "R?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Transistor_FET:BSS138") (at 83.82 130.81 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e4d4557d-5294-4e7c-a29e-c12cf8160282)
+    (property "Reference" "Q4" (at 83.82 138.43 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "BSS138" (at 83.82 140.97 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "JLC_Mosfet:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR" (at 81.915 135.89 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 83.82 130.81 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid fc388280-a5d9-4212-b880-a11d724860b2))
+    (pin "2" (uuid 68327779-ebf6-4382-9933-5b03cc8cbf1b))
+    (pin "3" (uuid b56252df-d4dc-4df0-a8bf-cfa61093bebd))
+    (instances
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
+          (reference "Q4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 209.55 123.19 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e51ac452-84c5-4caa-8f3c-787705826fff)
+    (property "Reference" "R?" (at 212.09 122.555 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 212.09 125.095 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 207.772 123.19 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 209.55 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d0bda08f-c069-44d3-91a6-684df775f3ec))
+    (pin "2" (uuid f9a9f1ea-a11c-454e-a9d2-86e7d175a6a6))
+    (instances
+      (project "Sensor_ModuleOld"
+        (path "/038854bb-101b-4dc9-9b0a-a0f227e0c810"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
+          (reference "R?") (unit 1)
+        )
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
+          (reference "R49") (unit 1)
+        )
+      )
+      (project "main"
+        (path "/4c07aeb9-c561-4d47-852e-b412a3ede5f6/463d35d1-4dbf-4ac6-acf8-1939d32ca00e"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Sensor_Module"
+        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
+          (reference "R?") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Transistor_FET:BSS138") (at 196.85 130.81 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6f7a871-6a13-476b-bd2f-22cf97a3e544)
@@ -1476,7 +1476,7 @@
     (property "Value" "BSS138" (at 196.85 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 194.945 135.89 0)
+    (property "Footprint" "JLC_Mosfet:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR" (at 194.945 135.89 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 196.85 130.81 0)
@@ -1503,7 +1503,7 @@
     (property "Value" "Conn_01x02_Pin" (at 191.77 149.86 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "" (at 195.58 148.59 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (at 195.58 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 195.58 148.59 0)
@@ -1537,7 +1537,7 @@
     (property "Value" "10K" (at 74.93 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 70.612 123.19 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 70.612 123.19 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.39 123.19 0)
@@ -1556,7 +1556,7 @@
           (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R37") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
       (project "main"
@@ -1581,7 +1581,7 @@
     (property "Value" "0" (at 168.91 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 168.91 55.118 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 168.91 55.118 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 168.91 53.34 0)
@@ -1600,7 +1600,7 @@
           (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R43") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
       (project "main"
@@ -1625,7 +1625,7 @@
     (property "Value" "10K" (at 187.96 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 183.642 123.19 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 183.642 123.19 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 185.42 123.19 0)
@@ -1644,7 +1644,7 @@
           (reference "R?") (unit 1)
         )
         (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "R46") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
       (project "main"
