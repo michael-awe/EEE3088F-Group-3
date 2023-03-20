@@ -4315,7 +4315,7 @@
     (property "Datasheet" "" (at 220.98 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 753a6eea-a049-4bcd-b057-a366aae24037))
+    (pin "1" (uuid 753a6eea-a04bcd-b057-a366aae24037))
     (instances
       (project "Main"
         (path "/1e9f3d34-a4c0-4684-8b0d-9d61663dabf9/dc5135c5-d6ed-4046-bf12-773bd1e5ac0e"
