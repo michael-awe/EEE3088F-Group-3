@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Logic Level Shifting")
+    (rev "0.0v")
+    (company "Univercity of Cape Town")
+    (comment 1 "Author: Simon Carthew")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x02_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
@@ -104,29 +111,29 @@
         )
       )
     )
-    (symbol "Transistor_FET:BSS123" (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "Transistor_FET:BSS138" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.905 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "BSS123" (at 5.08 0 0)
+      (property "Value" "BSS138" (at 5.08 0 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 5.08 -1.905 0)
         (effects (font (size 1.27 1.27) italic) (justify left) hide)
       )
-      (property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf" (at 0 0 0)
+      (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 0 0 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
       (property "ki_keywords" "N-Channel MOSFET" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23" (at 0 0 0)
+      (property "ki_description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "BSS123_0_1"
+      (symbol "BSS138_0_1"
         (polyline
           (pts
             (xy 0.254 0)
@@ -237,7 +244,7 @@
           (fill (type outline))
         )
       )
-      (symbol "BSS123_1_1"
+      (symbol "BSS138_1_1"
         (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -705,76 +712,6 @@
     (uuid d84b0660-d8d3-49cb-ad3f-6fa9b2087036)
   )
 
-  (symbol (lib_id "Transistor_FET:BSS123") (at 196.85 130.81 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 01dd976c-d5c6-466e-a33d-5d6f72cf9c41)
-    (property "Reference" "Q4" (at 196.85 137.16 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BSS123" (at 196.85 139.7 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 194.945 135.89 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf" (at 196.85 130.81 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 26bbc406-6cb6-4653-8074-b992d712d847))
-    (pin "2" (uuid bd292f36-6810-430b-8145-c98cc6d53ac9))
-    (pin "3" (uuid aecf806a-7aa2-449c-a7c2-e8863e7aeee1))
-    (instances
-      (project "HAT"
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "Q4") (unit 1)
-        )
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "Q6") (unit 1)
-        )
-      )
-      (project "Sensor_Module"
-        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
-          (reference "Q?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Transistor_FET:BSS123") (at 85.09 50.8 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0236e45b-9a4f-4857-8b53-2494c688e491)
-    (property "Reference" "Q4" (at 85.09 57.15 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BSS123" (at 85.09 59.69 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 83.185 55.88 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf" (at 85.09 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 6a93549d-c990-4993-a0a6-5ad5f5438af1))
-    (pin "2" (uuid e7c1d7f7-5c99-4a88-b058-9ceabdfcad2d))
-    (pin "3" (uuid 05791d7d-a1ce-43ac-a7bf-7c6207386008))
-    (instances
-      (project "HAT"
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "Q4") (unit 1)
-        )
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "Q4") (unit 1)
-        )
-      )
-      (project "Sensor_Module"
-        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
-          (reference "Q?") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 63.5 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06a8ec7f-ed31-463d-a7ae-00d5d2247710)
@@ -1097,41 +1034,6 @@
     )
   )
 
-  (symbol (lib_id "Transistor_FET:BSS123") (at 190.5 50.8 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8367a87a-1354-4bcb-87e7-318a3b41f780)
-    (property "Reference" "Q4" (at 190.5 57.15 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BSS123" (at 190.5 59.69 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 188.595 55.88 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf" (at 190.5 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 477d9383-77e3-46be-aa06-bcef0db75dca))
-    (pin "2" (uuid db21fdf9-3eed-449e-889e-269ff6dbf7b9))
-    (pin "3" (uuid 2c189228-93a2-45e9-9538-127293b625a6))
-    (instances
-      (project "HAT"
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "Q4") (unit 1)
-        )
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "Q3") (unit 1)
-        )
-      )
-      (project "Sensor_Module"
-        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
-          (reference "Q?") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 109.22 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87f8ca27-d9d3-4f5e-91aa-be20d4fc6b07)
@@ -1264,6 +1166,33 @@
     )
   )
 
+  (symbol (lib_id "Transistor_FET:BSS138") (at 85.09 50.8 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ab30644d-2030-442f-8bc4-1bf29fad8e87)
+    (property "Reference" "Q4" (at 85.09 58.42 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "BSS138" (at 85.09 60.96 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 83.185 55.88 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 85.09 50.8 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 5196087a-8743-4097-b328-020ed561306e))
+    (pin "2" (uuid 907f506c-4d58-45b5-8324-9407d5a25dcb))
+    (pin "3" (uuid f88a57f0-2839-447d-b03d-9d933db1f22b))
+    (instances
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
+          (reference "Q4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 215.9 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5759ae0-94fe-4c93-b9ad-a988cc459f01)
@@ -1308,41 +1237,6 @@
     )
   )
 
-  (symbol (lib_id "Transistor_FET:BSS123") (at 83.82 130.81 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cd82d2b9-862d-48b1-bc03-f955b87e0429)
-    (property "Reference" "Q4" (at 83.82 137.16 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BSS123" (at 83.82 139.7 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 81.915 135.89 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf" (at 83.82 130.81 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 7f15307a-0faa-45e7-bc60-fbb910b70a3c))
-    (pin "2" (uuid 6d5c6756-c6c5-43ba-b479-3a3ca475fd0a))
-    (pin "3" (uuid 8d5d5ea2-b480-4a8b-b835-2b8032e89c08))
-    (instances
-      (project "HAT"
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec"
-          (reference "Q4") (unit 1)
-        )
-        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
-          (reference "Q5") (unit 1)
-        )
-      )
-      (project "Sensor_Module"
-        (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
-          (reference "Q?") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 179.07 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ceed4291-5723-4a2c-8ee5-35e6f24e3547)
@@ -1382,6 +1276,33 @@
       (project "Sensor_Module"
         (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
           (reference "R?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Transistor_FET:BSS138") (at 190.5 50.8 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid da56bf77-b019-4326-96c6-387cd9ed9ab4)
+    (property "Reference" "Q6" (at 190.5 58.42 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "BSS138" (at 190.5 60.96 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 188.595 55.88 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 190.5 50.8 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid f8ac022d-e6f7-4943-a961-f6df9be88727))
+    (pin "2" (uuid 58cc049d-2c7e-4618-beee-1a39553e5681))
+    (pin "3" (uuid f1712979-cf0a-4feb-84cd-9096b848f120))
+    (instances
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -1475,6 +1396,33 @@
     )
   )
 
+  (symbol (lib_id "Transistor_FET:BSS138") (at 83.82 130.81 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e4d4557d-5294-4e7c-a29e-c12cf8160282)
+    (property "Reference" "Q3" (at 83.82 138.43 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "BSS138" (at 83.82 140.97 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 81.915 135.89 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 83.82 130.81 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid fc388280-a5d9-4212-b880-a11d724860b2))
+    (pin "2" (uuid 68327779-ebf6-4382-9933-5b03cc8cbf1b))
+    (pin "3" (uuid b56252df-d4dc-4df0-a8bf-cfa61093bebd))
+    (instances
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
+          (reference "Q3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 209.55 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e51ac452-84c5-4caa-8f3c-787705826fff)
@@ -1514,6 +1462,33 @@
       (project "Sensor_Module"
         (path "/d6038744-7210-48db-ae1a-265b87ce43bf"
           (reference "R?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Transistor_FET:BSS138") (at 196.85 130.81 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e6f7a871-6a13-476b-bd2f-22cf97a3e544)
+    (property "Reference" "Q5" (at 196.85 138.43 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "BSS138" (at 196.85 140.97 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 194.945 135.89 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 196.85 130.81 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 44f17e26-5e87-4e29-afbb-bc63b00a0206))
+    (pin "2" (uuid 96dd4c90-6664-4ffd-93ec-fda64edd8459))
+    (pin "3" (uuid 22db9dab-61c1-47db-9dcf-cd3650aa11aa))
+    (instances
+      (project "HAT"
+        (path "/40f36b19-a08c-43e7-88a6-ec8387939712/2460aa4e-e7b3-4d03-ad75-cceb37813eec/d0f7a92e-0f98-4ead-b13e-41c663156703"
+          (reference "Q5") (unit 1)
         )
       )
     )
