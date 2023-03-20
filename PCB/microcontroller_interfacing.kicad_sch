@@ -2795,7 +2795,7 @@
     (property "Reference" "Y1" (at 55.88 129.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "8MHz Crystal" (at 55.88 132.08 0)
+    (property "Value" "C252310" (at 55.88 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 55.88 135.89 0)
@@ -2929,7 +2929,7 @@
     (property "Reference" "C17" (at 76.2 139.0713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10pF" (at 76.2 141.6113 0)
+    (property "Value" "30pF" (at 76.2 141.6113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 73.66 139.7 0)
@@ -3191,7 +3191,7 @@
     (property "Reference" "C16" (at 38.1 139.0713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10pF" (at 38.1 141.6113 0)
+    (property "Value" "30pF" (at 38.1 141.6113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 35.56 139.7 0)
@@ -4315,7 +4315,7 @@
     (property "Datasheet" "" (at 220.98 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 753a6eea-a04bcd-b057-a366aae24037))
+    (pin "1" (uuid 2f352987-8a1c-486e-88f7-b3bd89c41730))
     (instances
       (project "Main"
         (path "/1e9f3d34-a4c0-4684-8b0d-9d61663dabf9/dc5135c5-d6ed-4046-bf12-773bd1e5ac0e"
